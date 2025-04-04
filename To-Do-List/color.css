@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background:orange;
+   
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    width:90%;
+    margin: auto;
+
+}
+.box{
+    border: 2px solid black;
+    height: 500px;
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 120px;
+    margin-left: 330px;
+}
+
+
+.box h2{
+    font-family: "Playwrite CU", cursive;
+    margin-top: 13px;
+}
+
+.box i{
+    color: orange;
+    font-size: 30px;
+}
+
+.box input{
+    border: 0;
+    border-bottom: 3px solid black;
+    margin-top: 50px;
+    
+    background-color: whitesmoke;
+}
