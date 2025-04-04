@@ -1,0 +1,52 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing:0;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    margin: auto ;
+    padding:22px;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 300px;
+    width:500px;
+    margin-top:50px;
+    
+}
+
+#prod-details{
+    height: 100px;
+}
+
+.pdt-card{
+    background-color: bisque;
+    display: inline-block;
+    margin:10px;
+    padding:10px;
+}
+
+.pdt-name{
+    font-size: 24px;
+    font-weight:bold;
+}
+
+.pdt-price{
+    background-color: maroon;
+    font-size: 22px;
+    color: white;
+    width:fit-content;
+}
+
+.pdt-price::after{
+    content:" Rs";
+    font-size: 22px;
+
+}
+
+input,textarea,button{
+    padding:10px;
+}
